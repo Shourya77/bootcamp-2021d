@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
     marginTop: 10,
     borderRadius: 20,
     width: '100%',
-    height: 150,
+    height: 350,
   },
   bottomRow: {
     paddingVertical: 10,
@@ -147,10 +147,12 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   iconContainer: {
+    color: "#228B22",
     flexDirection: 'row',
     alignItems: 'center',
   },
   iconDescription: {
+    color: "#228B22",
     marginLeft: 2,
     lineHeight: 12,
   },
