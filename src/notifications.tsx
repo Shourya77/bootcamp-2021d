@@ -10,21 +10,17 @@ import { AllNotifications } from './all';
 
 const initialLayout = { width: Dimensions.get('window').width };
 
-const All = () => <AllNotifications />;
-
 const Mentions = () => <Feed />;
 
 export const Notifications = () => {
   const [index, setIndex] = React.useState(0);
   const [routes] = React.useState([
-    { key: 'all', title: 'All' },
     { key: 'mentions', title: 'Mentions' },
   ]);
 
   const theme = useTheme();
 
   const renderScene = SceneMap({
-    all: All,
     mentions: Mentions,
   });
 

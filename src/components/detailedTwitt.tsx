@@ -7,7 +7,6 @@ import {
   Avatar,
   Subheading,
   useTheme,
-  recipe
 } from 'react-native-paper';
 import color from 'color';
 
@@ -23,6 +22,7 @@ type Props = {
   retweets: number;
   hearts: number;
   recipe_title: string;
+  recipe: string;
 };
 
 export const DetailedTwitt = (props: Props) => {
@@ -52,8 +52,8 @@ export const DetailedTwitt = (props: Props) => {
         </View>
       </View>
       <Subheading style={[styles.content, { color: contentColor }]}>
-        {props.content}
-      </Subheading>
+        {props.recipe_title}
+      </Subheading>  
       <Image
         source={{ uri: props.image }}
         style={[
@@ -63,9 +63,8 @@ export const DetailedTwitt = (props: Props) => {
           },
         ]}
       />
-      <Subheading style={[styles.recipetext, { color: contentColor }]}>
-        {props.recipe_title}
-      </Subheading>    </Surface>
+      <Text style={[styles.recipetext, { color: contentColor }]}>{props.recipe}</Text>  
+      </Surface>
   );
 };
 
@@ -99,8 +98,7 @@ const styles = StyleSheet.create({
   },
   recipetext: {
     width: "100%",
-    marginTop: 25,
-    fontSize: 20,
+    fontSize: 14,
     lineHeight: 30,
     alignContent: "center"
   }

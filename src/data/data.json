@@ -2,18 +2,17 @@
   "twitts" : {
     "1": {
       "id": 1,
-      "name": "🌈 Healthy J",
+      "name": "🌈 Healthy John",
       "handle": "@JoshWComeau",
       "date": "10h",
-      "content": "🔥 Automatically use \"smart\" directional curly quotes with the `quotes` CSS property! Even handles nested quotes with the <q> tag :o",
-      "image": "https://www.cookingclassy.com/wp-content/uploads/2019/11/best-salad-7.jpg",
+      "content": "One of my favourite recipes!",
+      "image": "https://www.feastingathome.com/wp-content/uploads/2016/12/sunchoke-soup-200-2.jpg",
       "avatar": "https://pbs.twimg.com/profile_images/1242807739681845248/HeUb7BAt_400x400.jpg",
       "comments": 12,
       "retweets": 36,
       "hearts": 175,
       "recipe_title": "Wild Mushroom Soup",
-      "recipe": " "
-
+      "recipe": "To make this vegan and gluten-free, creamy wild mushroom sunchoke soup, you’ll need 1/4 cup olive oil 1 large onion- diced, 8 ounces fresh mushrooms, 3 cloves garlic, rough chopped, 1 tablespoon fresh thyme (or sage or rosemary), 3 cups water, 3 cups vegetable stock, 1/2 pound sunchokes, scrubbed, thinly sliced 1/2 pound potatoes thinly sliced, 1/2 cup dried mushrooms, 1 teaspoon salt, 1/8 teaspoon white pepper, and 1/2 teaspoon of soy sauce."
     },
     "2": {
       "id": 2,
@@ -26,8 +25,8 @@
       "comments": 64,
       "retweets": 87,
       "hearts": 400,
-      "recipe_title": " ",
-      "recipe": " "
+      "recipe_title": "Sweet Potato Nachos",
+      "recipe": "To make the best Sweet Potato Nachos, you'll need thinly sliced radishes, shredded cabbage, thinly sliced raw or pickled jalapeños, thinly sliced raw or pickled onions, thinly sliced scallions, sour cream (for dolloping), gently crushed tortilla chips, and roughly chopped cilantro."
 
     },
     "3": {
@@ -36,13 +35,13 @@
       "handle": "@elvin_not_11",
       "date": "14h",
       "content": "Hid the home indicator from the app so the device resembles an actual iPod even more. Thanks @flipeesposito for the suggestion!",
-      "image": "https://static.antyweb.pl/uploads/2014/09/IPod_classic_6G_80GB_packaging-2007-09-22-1420x670.jpg",
+      "image": "https://fruitsandveggies.org/wp-content/uploads/2021/01/Walnut-Cranberry-Granola-Bars-sized-1440x480.jpg",
       "avatar": "https://pbs.twimg.com/profile_images/1308332115919020032/jlqFOD33_400x400.jpg",
       "comments": 23,
       "retweets": 21,
       "hearts": 300,
-      "recipe_title": " ",
-      "recipe": ""
+      "recipe_title": "Walnut Cranberry Granola Bars ",
+      "recipe": "To make this Walnut Cranberry Granola Bars, you’ll need 3 cups old fashioned (rolled) oats, 1 cup roughly chopped California walnuts, ⅓ cup unsweetened or sweetened coconut flakes, ¼ cup dried cranberries, roughly chopped, 1 tablespoon brown sugar, 1 teaspoon cinnamon, 8 large Medjool dates, roughly chopped, ⅓ cup honey, 1 tablespoon coconut oil, 1 teaspoon vanilla extract"
 
     },
     "4": {
@@ -51,7 +50,7 @@
       "handle": "@JoshWComeau",
       "date": "10h",
       "content": "🔥 Automatically use \"smart\" directional curly quotes with the `quotes` CSS property! Even handles nested quotes with the <q> tag :o",
-      "image": "https://pbs.twimg.com/media/EOUrCOcWAAA71rA?format=png&name=small",
+      "image":  "https://www.cookingclassy.com/wp-content/uploads/2019/11/best-salad-7.jpg",
       "avatar": "https://pbs.twimg.com/profile_images/1242807739681845248/HeUb7BAt_400x400.jpg",
       "comments": 12,
       "retweets": 36,
@@ -65,7 +64,7 @@
       "handle": "@satya164",
       "date": "20h",
       "content": "Not sure if I should be proud or ashamed of this piece of art 😅\n\n#Typescript",
-      "image": "https://pbs.twimg.com/media/EONH4KWX4AEV-JP?format=jpg&name=medium",
+      "image": "https://www.studyfinds.org/wp-content/uploads/2020/01/AdobeStock_289529994-816x520.jpeg",
       "avatar": "https://pbs.twimg.com/profile_images/1203032057875771393/x0nVAZPL_400x400.jpg",
       "comments": 64,
       "retweets": 87,

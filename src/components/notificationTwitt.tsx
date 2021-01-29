@@ -1,6 +1,6 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
-import { Surface, Text, Avatar, useTheme } from 'react-native-paper';
+import { StyleSheet, View, Image } from 'react-native';
+import { Surface, Avatar, useTheme } from 'react-native-paper';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import color from 'color';
 
@@ -8,6 +8,7 @@ type Props = {
   id: number;
   name: string;
   content: string;
+  image: string;
   people: Array<{
     name: string;
     image: string;
@@ -42,11 +43,12 @@ export const NotificationTwitt = (props: Props) => {
             />
           ))}
         </View>
-        <Text style={{ marginBottom: 10 }}>
-          {props.people.map(({ name }) => name).join(' and ')} likes{' '}
-          {props.name} tweet.
-        </Text>
-        <Text style={{ color: contentColor }}>{props.content}</Text>
+        <Image
+          source={{ uri: props.image }}
+          style={[
+            styles.image,
+          ]}
+        />
       </View>
     </Surface>
   );
@@ -66,6 +68,13 @@ const styles = StyleSheet.create({
   },
   rightColumn: {
     flex: 1,
+  },
+  image: {
+    borderWidth: StyleSheet.hairlineWidth,
+    marginTop: 25,
+    borderRadius: 20,
+    width: '100%',
+    height: 180,
   },
   topRow: {
     flexDirection: 'row',

@@ -64,7 +64,7 @@ export const BottomTabs = (props: Props) => {
           name="Friends"
           component={Notifications}
           options={{
-            tabBarIcon: 'bell-outline',
+            tabBarIcon: 'contacts',
             tabBarColor,
           }}
         />
