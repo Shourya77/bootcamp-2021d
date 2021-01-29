@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Image } from 'react-native';
+import { Text, StyleSheet, View, Image } from 'react-native';
 import {
   Surface,
   Title,
@@ -7,6 +7,7 @@ import {
   Avatar,
   Subheading,
   useTheme,
+  recipe
 } from 'react-native-paper';
 import color from 'color';
 
@@ -21,6 +22,7 @@ type Props = {
   comments: number;
   retweets: number;
   hearts: number;
+  recipe_title: string;
 };
 
 export const DetailedTwitt = (props: Props) => {
@@ -61,7 +63,9 @@ export const DetailedTwitt = (props: Props) => {
           },
         ]}
       />
-    </Surface>
+      <Subheading style={[styles.recipetext, { color: contentColor }]}>
+        {props.recipe_title}
+      </Subheading>    </Surface>
   );
 };
 
@@ -91,6 +95,13 @@ const styles = StyleSheet.create({
     marginTop: 25,
     borderRadius: 20,
     width: '100%',
-    height: 280,
+    height: 180,
   },
+  recipetext: {
+    width: "100%",
+    marginTop: 25,
+    fontSize: 20,
+    lineHeight: 30,
+    alignContent: "center"
+  }
 });

@@ -1,6 +1,6 @@
 import color from 'color';
 import { Animated } from 'react-native';
-import { DarkTheme } from 'react-native-paper';
+import { DarkTheme, LightTheme } from 'react-native-paper';
 
 export default function overlay(
   elevation: number | Animated.Value = 1,

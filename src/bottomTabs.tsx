@@ -53,7 +53,7 @@ export const BottomTabs = (props: Props) => {
         sceneAnimationEnabled={false}
       >
         <Tab.Screen
-          name="Feed"
+          name="Top Trends"
           component={Feed}
           options={{
             tabBarIcon: 'home-account',
@@ -61,40 +61,14 @@ export const BottomTabs = (props: Props) => {
           }}
         />
         <Tab.Screen
-          name="Notifications"
+          name="Friends"
           component={Notifications}
           options={{
             tabBarIcon: 'bell-outline',
             tabBarColor,
           }}
         />
-        <Tab.Screen
-          name="Messages"
-          component={Message}
-          options={{
-            tabBarIcon: 'message-text-outline',
-            tabBarColor,
-          }}
-        />
       </Tab.Navigator>
-      <Portal>
-        <FAB
-          visible={isFocused}
-          icon={icon}
-          style={{
-            position: 'absolute',
-            bottom: safeArea.bottom + 65,
-            right: 16,
-          }}
-          color="white"
-          theme={{
-            colors: {
-              accent: theme.colors.primary,
-            },
-          }}
-          onPress={() => {}}
-        />
-      </Portal>
     </React.Fragment>
   );
 };

@@ -4,7 +4,6 @@ import { StackNavigationProp } from '@react-navigation/stack';
 import { useTheme } from 'react-native-paper';
 
 import { Twitt } from './components/twitt';
-// import { twitts } from './data';
 import { twitts } from './data/data.json';
 import { StackNavigatorParamlist } from './types';
 
