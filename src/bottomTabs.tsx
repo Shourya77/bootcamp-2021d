@@ -53,7 +53,7 @@ export const BottomTabs = (props: Props) => {
         sceneAnimationEnabled={false}
       >
         <Tab.Screen
-          name="Top Trends"
+          name="Verde"
           component={Feed}
           options={{
             tabBarIcon: 'home-account',
